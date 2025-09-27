@@ -5,7 +5,7 @@ import angular from '@analogjs/vite-plugin-angular';
 import { keycloakify } from 'keycloakify/vite-plugin';
 
 // https://vitejs.dev/config/
-export default defineConfig(({ mode }) => ({
+export default defineConfig(() => ({
   build: {
     target: ['es2022'],
   },

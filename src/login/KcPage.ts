@@ -10,6 +10,15 @@ export const doMakeUserConfirmPassword = true;
 
 export async function getKcPage(pageId: KcContext['pageId']): Promise<KcPage> {
   switch (pageId) {
+    case 'login.ftl':
+      return {
+        PageComponent: (await import('./pages/login/login.component')).LoginComponent,
+        TemplateComponent,
+        UserProfileFormFieldsComponent,
+        doMakeUserConfirmPassword,
+        doUseDefaultCss,
+        classes,
+      };
     default:
       return {
         PageComponent: await getDefaultPageComponent(pageId),

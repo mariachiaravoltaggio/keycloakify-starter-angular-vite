@@ -3612,6 +3612,40 @@
   resolved "https://registry.yarnpkg.com/@poppinss/exception/-/exception-1.2.2.tgz#8d30d42e126c54fe84e997433e4dcac610090743"
   integrity sha512-m7bpKCD4QMlFCjA/nKTs23fuvoVFoA83brRKmObCUNmi/9tVu8Ve3w4YQAnJu4q3Tjf5fr685HYIC/IA2zHRSg==
 
+"@primeng/themes@^20.2.0":
+  version "20.2.0"
+  resolved "https://registry.yarnpkg.com/@primeng/themes/-/themes-20.2.0.tgz#74ee94ed1b3827b073cf515d9b9fba528312df5a"
+  integrity sha512-n3zqkamwzLV/q/cRMSIXfugaIQQ4oUVX+IC3HsyO4QTLCwIUL6l4s2Dsy66ATSKijYBl6L1/+4ihUHvoEAZ8Xw==
+  dependencies:
+    "@primeuix/styled" "^0.7.3"
+    "@primeuix/themes" "^1.2.4"
+
+"@primeuix/styled@^0.7.3":
+  version "0.7.3"
+  resolved "https://registry.yarnpkg.com/@primeuix/styled/-/styled-0.7.3.tgz#0f816ae04f7ab902b67d68ce977208ad0abb5ebf"
+  integrity sha512-qAzefzODuYZRaEh2b2uTJCtaT+qUMAt1WPCZhYgkbLUVQ8qt7hFL5BjTsqqCaiBWZCZtDkGmKhP19SRIL6hAlQ==
+  dependencies:
+    "@primeuix/utils" "^0.6.1"
+
+"@primeuix/styles@^1.2.4":
+  version "1.2.4"
+  resolved "https://registry.yarnpkg.com/@primeuix/styles/-/styles-1.2.4.tgz#fcb84db7b5b5f3e94299d80b1fdf9b745ee5a8c6"
+  integrity sha512-G9tRvbC+YTzrkp/SjOdQ8k4pbnYiHopK0KQnq0eDSdNk99m+sM57eh1CuXVlXW/+1NRC42kB0g0XNLtYa67/ww==
+  dependencies:
+    "@primeuix/styled" "^0.7.3"
+
+"@primeuix/themes@^1.2.4":
+  version "1.2.4"
+  resolved "https://registry.yarnpkg.com/@primeuix/themes/-/themes-1.2.4.tgz#b2e6c9cd5804036dded0686cc2b223c61f1a3bb8"
+  integrity sha512-bXXNJnnMI4qpQXFBciqIPY0BqPo02Uw3Pzp+cEETGkyd7XTOtFJfJGZVlu0Bx3/jbQodXt7iEOi0w0Icrdm7HQ==
+  dependencies:
+    "@primeuix/styled" "^0.7.3"
+
+"@primeuix/utils@^0.6.1":
+  version "0.6.1"
+  resolved "https://registry.yarnpkg.com/@primeuix/utils/-/utils-0.6.1.tgz#34af8e05aa9a142bf3c290381b5e104dc15e52b5"
+  integrity sha512-tQL/ZOPgCdD+NTimlUmhyD0ey8J1XmpZE4hDHM+/fnuBicVVmlKOd5HpS748LcOVRUKbWjmEPdHX4hi5XZoC1Q==
+
 "@rolldown/binding-android-arm64@1.0.0-beta.38":
   version "1.0.0-beta.38"
   resolved "https://registry.yarnpkg.com/@rolldown/binding-android-arm64/-/binding-android-arm64-1.0.0-beta.38.tgz#8f56cb4e63acc36db914bd1f9e92ca8773757674"
@@ -10978,6 +11012,16 @@ pretty-format@30.0.5:
     "@jest/schemas" "30.0.5"
     ansi-styles "^5.2.0"
     react-is "^18.3.1"
+
+primeng@^20.2.0:
+  version "20.2.0"
+  resolved "https://registry.yarnpkg.com/primeng/-/primeng-20.2.0.tgz#51f212b64e061b5a95c7d811dab6a141d052aaef"
+  integrity sha512-SXdL5dY+YWaCt1jRFqf4EUVhyVlhYV0MjLeke/UeLx/Od0+06Ru33MLQe2Ul7o/vAmItbh+OvRTu7jEk5LMjqQ==
+  dependencies:
+    "@primeuix/styled" "^0.7.3"
+    "@primeuix/styles" "^1.2.4"
+    "@primeuix/utils" "^0.6.1"
+    tslib "^2.3.0"
 
 proc-log@^3.0.0:
   version "3.0.0"
