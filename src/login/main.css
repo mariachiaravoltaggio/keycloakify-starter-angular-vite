@@ -1,0 +1,35 @@
+
+ @media (min-width: 768px) {
+    .login-pf-page .login-pf-page-header {
+        margin-bottom: 10px;
+    }
+}
+body.kcBodyClass {
+    background: url(../assets/bg-login.jpg) no-repeat center center fixed;
+}
+
+.logo-and-title-container {
+    /* Abilita Flexbox per allineare gli elementi */
+    display: flex;
+    justify-content: center;
+    /* Centra verticalmente logo e titolo */
+    align-items: center;
+    /* Aggiunge spazio tra il logo e il titolo se necessario */
+    gap: 15px; /* Adjust this value as needed */
+}
+
+/* Stilizza il div che contiene il nome del realm per allinearlo */
+.logo-and-title-container div {
+    /* Assicurati che il testo del realm sia allineato correttamente */
+    margin: 0;
+    padding: 0;
+}
+
+/* Puoi anche voler assicurarti che il logo sia della dimensione corretta se hai usato `width="100"` nell'HTML */
+.logo-and-title-container img {
+    /* Rimuove eventuali margini indesiderati sul logo */
+    margin: 0;
+    /* Mantiene l'allineamento del testo del realm */
+    vertical-align: middle;
+}
+
